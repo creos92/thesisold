@@ -1,5 +1,6 @@
 #!/bin/bash
-echo Interfaccia Joint
-sleep 10s
-rosparam set use_gui true
-rosrun joint_state_publisher joint_state_publisher
+echo Open Rviz
+source ./devel/setup.bash
+roslaunch inmoov_description display.launch model:=./src/inmoov_description/rob$
+
+
