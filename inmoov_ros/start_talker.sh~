@@ -1,0 +1,4 @@
+#!/bin/bash
+echo Open traduction node
+sleep 10s
+rosrun beginner_tutorials talker2.py
