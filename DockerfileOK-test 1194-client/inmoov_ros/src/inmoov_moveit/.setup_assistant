@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: inmoov_description
+    relative_path: robots/inmoov.urdf.xacro
+    use_jade_xacro: true
+  SRDF:
+    relative_path: config/inmoov.srdf
+  CONFIG:
+    author_name: cesare
+    author_email: cesare.pec@gmail.com
+    generated_timestamp: 1510139804
