@@ -1,7 +1,0 @@
-controller_list:
-  - name: fake_left_arm_controller
-    joints:
-      - left_shoulder_up
-      - left_bicep_rotate
-      - left_bicep
-      - left_hand
