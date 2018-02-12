@@ -1,0 +1,100 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 1 (0x1)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=IT, ST=Italy, L=Torino, O=HBR, OU=MyOrganizationalUnit, CN=POpenVPN-CA/name=EasyRSA/emailAddress=cesare.pec@gmail.com
+        Validity
+            Not Before: Jan 22 15:14:09 2018 GMT
+            Not After : Jan 20 15:14:09 2028 GMT
+        Subject: C=IT, ST=Italy, L=Torino, O=HBR, OU=MyOrganizationalUnit, CN=server/name=EasyRSA/emailAddress=cesare.pec@gmail.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:ba:1c:5d:53:c7:b8:c6:a4:02:e6:06:c8:c0:d5:
+                    b7:9b:60:25:44:3b:95:8b:fe:d8:7b:7d:fc:f2:a2:
+                    f4:35:07:e3:4e:01:80:86:bd:49:0b:18:61:1e:3b:
+                    87:43:c2:68:28:2b:3c:5b:16:d0:52:fc:05:14:2f:
+                    46:e4:28:60:dc:79:3d:6b:27:dd:32:4a:10:6d:c4:
+                    84:5c:39:1e:2c:bd:1a:ac:ec:f4:98:04:66:69:4b:
+                    b5:02:62:91:88:2e:6a:ec:a7:06:0b:0e:e0:41:02:
+                    e8:cd:a0:ec:7f:e9:35:14:9a:df:4d:5f:e5:92:4f:
+                    7b:0b:1d:a8:cd:f2:a6:e8:20:60:d9:23:b8:ae:b6:
+                    f1:c2:c8:c0:35:3c:5d:c5:dc:2c:69:8a:e4:ad:15:
+                    6e:ef:dc:18:44:d6:f8:c5:81:d1:1e:01:d8:ca:d4:
+                    90:a9:86:79:19:e5:38:29:f1:30:61:67:63:ae:7c:
+                    cf:bb:e6:84:46:61:74:25:4c:e6:25:bb:73:80:7f:
+                    fe:0d:61:83:16:8d:37:77:ff:0e:33:b0:4e:65:c9:
+                    d8:09:a7:1a:57:ae:d6:db:bd:df:86:9a:af:f5:59:
+                    90:85:88:2e:61:00:1b:e2:43:13:b3:aa:87:6b:82:
+                    58:04:c3:bb:b0:2f:29:b6:a4:4f:8e:99:7f:a7:e4:
+                    b5:93
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Cert Type: 
+                SSL Server
+            Netscape Comment: 
+                Easy-RSA Generated Server Certificate
+            X509v3 Subject Key Identifier: 
+                B2:0E:4D:C9:72:E5:26:8A:93:2B:7E:86:22:DA:44:AC:23:7A:DC:2E
+            X509v3 Authority Key Identifier: 
+                keyid:59:6A:31:0F:32:6A:80:51:CE:B2:DC:C0:E2:F8:6B:C2:9F:33:54:4A
+                DirName:/C=IT/ST=Italy/L=Torino/O=HBR/OU=MyOrganizationalUnit/CN=POpenVPN-CA/name=EasyRSA/emailAddress=cesare.pec@gmail.com
+                serial:B5:CC:09:20:21:4F:6A:97
+
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+            X509v3 Key Usage: 
+                Digital Signature, Key Encipherment
+            X509v3 Subject Alternative Name: 
+                DNS:server
+    Signature Algorithm: sha256WithRSAEncryption
+         56:36:be:bc:4f:d6:f7:39:a0:5e:ef:67:f9:1e:d9:c7:7e:0b:
+         d6:42:fb:a8:af:e8:60:79:5d:4b:a1:b0:26:22:99:e7:2c:83:
+         f5:a1:fd:6b:3a:2c:85:7d:07:f6:a8:c0:22:14:7e:79:90:2d:
+         a3:19:4b:72:14:c5:1e:29:e2:14:b6:8e:23:82:3d:6b:b9:d3:
+         ac:73:ce:21:d8:f7:f2:f4:69:a1:79:f5:b8:2d:00:43:a2:30:
+         27:cd:a2:84:a7:fe:34:c7:77:6f:c7:de:51:4b:ae:86:c2:94:
+         ea:3d:3f:1a:21:e6:60:08:88:d9:59:b1:83:f7:75:35:df:47:
+         91:74:ff:0f:ab:7d:0e:0f:ae:8b:d5:35:9d:a3:71:92:00:37:
+         fa:ec:ad:b2:1a:e6:e3:37:95:85:2d:cf:24:46:c8:05:aa:1b:
+         56:32:18:5a:c1:08:36:e3:e4:ab:6f:68:78:17:f2:fa:49:42:
+         fe:f1:30:ac:64:3d:94:87:8e:6e:4a:b5:c3:b2:02:8b:6d:93:
+         f4:d0:8e:39:eb:8b:29:e3:14:6a:bf:4b:a3:b3:7d:04:df:e4:
+         9f:76:75:ef:92:34:7f:2a:e6:7a:46:cf:0a:b7:cd:51:7c:74:
+         a6:48:82:68:be:be:71:98:be:1c:f4:40:d3:20:ae:1f:e7:43:
+         57:fd:37:45
+-----BEGIN CERTIFICATE-----
+MIIFVjCCBD6gAwIBAgIBATANBgkqhkiG9w0BAQsFADCBqDELMAkGA1UEBhMCSVQx
+DjAMBgNVBAgTBUl0YWx5MQ8wDQYDVQQHEwZUb3Jpbm8xDDAKBgNVBAoTA0hCUjEd
+MBsGA1UECxMUTXlPcmdhbml6YXRpb25hbFVuaXQxFDASBgNVBAMTC1BPcGVuVlBO
+LUNBMRAwDgYDVQQpEwdFYXN5UlNBMSMwIQYJKoZIhvcNAQkBFhRjZXNhcmUucGVj
+QGdtYWlsLmNvbTAeFw0xODAxMjIxNTE0MDlaFw0yODAxMjAxNTE0MDlaMIGjMQsw
+CQYDVQQGEwJJVDEOMAwGA1UECBMFSXRhbHkxDzANBgNVBAcTBlRvcmlubzEMMAoG
+A1UEChMDSEJSMR0wGwYDVQQLExRNeU9yZ2FuaXphdGlvbmFsVW5pdDEPMA0GA1UE
+AxMGc2VydmVyMRAwDgYDVQQpEwdFYXN5UlNBMSMwIQYJKoZIhvcNAQkBFhRjZXNh
+cmUucGVjQGdtYWlsLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB
+ALocXVPHuMakAuYGyMDVt5tgJUQ7lYv+2Ht9/PKi9DUH404BgIa9SQsYYR47h0PC
+aCgrPFsW0FL8BRQvRuQoYNx5PWsn3TJKEG3EhFw5Hiy9Gqzs9JgEZmlLtQJikYgu
+auynBgsO4EEC6M2g7H/pNRSa301f5ZJPewsdqM3ypuggYNkjuK628cLIwDU8XcXc
+LGmK5K0Vbu/cGETW+MWB0R4B2MrUkKmGeRnlOCnxMGFnY658z7vmhEZhdCVM5iW7
+c4B//g1hgxaNN3f/DjOwTmXJ2AmnGleu1tu934aar/VZkIWILmEAG+JDE7Oqh2uC
+WATDu7AvKbakT46Zf6fktZMCAwEAAaOCAYwwggGIMAkGA1UdEwQCMAAwEQYJYIZI
+AYb4QgEBBAQDAgZAMDQGCWCGSAGG+EIBDQQnFiVFYXN5LVJTQSBHZW5lcmF0ZWQg
+U2VydmVyIENlcnRpZmljYXRlMB0GA1UdDgQWBBSyDk3JcuUmipMrfoYi2kSsI3rc
+LjCB3QYDVR0jBIHVMIHSgBRZajEPMmqAUc6y3MDi+GvCnzNUSqGBrqSBqzCBqDEL
+MAkGA1UEBhMCSVQxDjAMBgNVBAgTBUl0YWx5MQ8wDQYDVQQHEwZUb3Jpbm8xDDAK
+BgNVBAoTA0hCUjEdMBsGA1UECxMUTXlPcmdhbml6YXRpb25hbFVuaXQxFDASBgNV
+BAMTC1BPcGVuVlBOLUNBMRAwDgYDVQQpEwdFYXN5UlNBMSMwIQYJKoZIhvcNAQkB
+FhRjZXNhcmUucGVjQGdtYWlsLmNvbYIJALXMCSAhT2qXMBMGA1UdJQQMMAoGCCsG
+AQUFBwMBMAsGA1UdDwQEAwIFoDARBgNVHREECjAIggZzZXJ2ZXIwDQYJKoZIhvcN
+AQELBQADggEBAFY2vrxP1vc5oF7vZ/ke2cd+C9ZC+6iv6GB5XUuhsCYimecsg/Wh
+/Ws6LIV9B/aowCIUfnmQLaMZS3IUxR4p4hS2jiOCPWu506xzziHY9/L0aaF59bgt
+AEOiMCfNooSn/jTHd2/H3lFLrobClOo9Pxoh5mAIiNlZsYP3dTXfR5F0/w+rfQ4P
+rovVNZ2jcZIAN/rsrbIa5uM3lYUtzyRGyAWqG1YyGFrBCDbj5KtvaHgX8vpJQv7x
+MKxkPZSHjm5KtcOyAottk/TQjjnriynjFGq/S6OzfQTf5J92de+SNH8q5npGzwq3
+zVF8dKZIgmi+vnGYvhz0QNMgrh/nQ1f9N0U=
+-----END CERTIFICATE-----

@@ -1,0 +1,3 @@
+#!/bin/bash
+echo Open Rviz
+roslaunch inmoov_description display.launch model:=/home/creos/catkin/src/inmoov_description/robots/inmoov_right_hand.urdf.xacro
