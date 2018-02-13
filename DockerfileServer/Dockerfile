@@ -8,7 +8,7 @@ RUN /bin/bash -c "wget https://swupdate.openvpn.org/community/releases/openvpn-2
 
 RUN /bin/bash -c "source /opt/ros/indigo/setup.bash && cd /inmoov_ros && catkin_make"
 
-CMD cd inmoov_ros && chmod +rx start.sh && ./start.sh
+CMD cd inmoov_ros && chmod +rx start_s.sh && ./start_s.sh
 #CMD cd inmoov_ros && chmod +rx start.sh && ./start.sh
 
 
