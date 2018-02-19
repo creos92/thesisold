@@ -4,8 +4,8 @@ Lato server:
 Effettuare port forwarding della porta 1194 con l'IP LAN del pc che farà da server.
 
 Da linea di comando:
-$ su root 
-$ xhost +local:root 
+ su root 
+ xhost +local:root 
 $ ip link delete tun* %eliminare tutte le interfacce tun (tun0,tun1)
 $ svn checkout https://github.com/creos92/thesis.git/trunk/DockerfileServer
 $ docker build DockerfileServer/ -t parloma:server
