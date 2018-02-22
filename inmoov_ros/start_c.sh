@@ -1,6 +1,6 @@
 #!/bin/bash
 source ./devel/setup.bash
-chmod +rx start_play.sh /Client/certificati/client1/start_client.sh
+chmod +rx start_play.sh /Client/certificati/client1/start_client.sh &&
 cd /Client/certificati/client1 && ./start_client.sh &
 sleep 15s
 export ROS_IP=10.8.0.6
