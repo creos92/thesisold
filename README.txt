@@ -1,5 +1,7 @@
 Lato server:
 Effettuare port forwarding della porta 1194 con l'IP LAN del pc che farà da server.
+docker rm $(docker ps -a -q)
+docker rmi $(docker images -q)
 
 Da linea di comando:
 su root 
@@ -17,3 +19,7 @@ su root
 svn checkout https://github.com/creos92/thesis.git/trunk/DockerfileClient
 docker build DockerfileClient/ -t parloma:client
 docker run -it --privileged --env="DISPLAY" --env="QT_X11_NO_MITSHM=1" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" --net=host parloma:client
+
+
+Problemi:
+Download del file
