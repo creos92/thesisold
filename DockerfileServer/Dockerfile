@@ -7,4 +7,4 @@ RUN     \
         wget https://swupdate.openvpn.org/community/releases/openvpn-2.4.4.tar.gz && sudo tar zxvf openvpn-2.4.4.tar.gz && cd openvpn-2.4.4 && ./configure && make && checkinstall -y && \
         /bin/bash -c "source /opt/ros/indigo/setup.bash && cd /inmoov_ros && catkin_make"
 
-CMD cd inmoov_ros && chmod +rx start_s.sh && sync &&./start_s.sh
+CMD cd inmoov_ros && chmod +rx start_s.sh && sync && ./start_s.sh
